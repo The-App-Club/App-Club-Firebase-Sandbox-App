@@ -1,0 +1,56 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "firebase": "^9.6.9",
+    "got": "^12.0.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.4",
+    "workbox-broadcast-update": "^5.1.4",
+    "workbox-cacheable-response": "^5.1.4",
+    "workbox-core": "^5.1.4",
+    "workbox-expiration": "^5.1.4",
+    "workbox-google-analytics": "^5.1.4",
+    "workbox-navigation-preload": "^5.1.4",
+    "workbox-precaching": "^5.1.4",
+    "workbox-range-requests": "^5.1.4",
+    "workbox-routing": "^5.1.4",
+    "workbox-strategies": "^5.1.4",
+    "workbox-streams": "^5.1.4"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "prettier": "^2.4.1",
+    "react-scripts": "5.0.0",
+    "sass": "^1.49.7",
+    "serve": "^13.0.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "serve -n -s build",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\"",
+    "lint:css": "stylelint --fix \"{,!(node_modules|dist|build)/**/}*.css*\" \"{,!(node_modules|dist|build)/**/}*.scss*\"",
+    "notify": "node notify.mjs"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

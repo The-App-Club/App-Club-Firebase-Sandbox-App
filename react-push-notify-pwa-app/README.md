@@ -1,0 +1,13 @@
+- TODO
+  - CLIENT ID の Firestore 保存
+  - 保存した CLIENT ID にメッセージ送信
+    - Cloud Function で定期実行
+  - Firebase を 9 系へ（できれば web push 通知が維持できるなら）
+    - PCは出来ている
+    - SPは[iOS Safariで再現取れてない](https://qiita.com/stake15/items/8938dd1ee5fa8f15225c#webpwa%E3%81%AE%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5%E9%80%9A%E7%9F%A5%E3%81%AE%E4%BB%95%E6%A7%98)
+      - iOS Safari で まだ非対応のため
+      - Androidはできるかも
+        - 実機手元に欲しい
+
+- Stack
+  - [got](https://github.com/sindresorhus/got)

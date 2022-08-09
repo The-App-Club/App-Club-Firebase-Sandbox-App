@@ -1,0 +1,90 @@
+{
+  "posts": {
+    "ts-functions": {
+      "metrics": {
+        "views": 1200000,
+        "likes": 251000,
+        "shares": 1200
+      },
+      "title": "Why you should use TypeScript for writing Cloud Functions",
+      "author": "Doug"
+    },
+    "android-arch-3": {
+      "metrics": {
+        "views": 900000,
+        "likes": 117000,
+        "shares": 144
+      },
+      "title": "Using Android Architecture Components with Firebase Realtime Database (Part 3)",
+      "author": "Doug"
+    }
+  },
+  "users": {
+    "3dec4cc0-8640-11ec-b6e0-00155dbad3b8": {
+      "age": 21,
+      "name": "sarah"
+    },
+    "43efe26c-8640-11ec-b2bd-00155dbad3b8": {
+      "age": 18,
+      "name": "john"
+    },
+    "5a687892-8640-11ec-9c95-00155dbad3b8": {
+      "age": 20,
+      "name": "kevin"
+    },
+    "67629848-8640-11ec-a166-00155dbad3b8": {
+      "age": 17,
+      "name": "hoge"
+    }
+  },
+  "comments": {
+    "df41126a-863e-11ec-9cab-00155dbad3b8": {
+      "id": "65588c8a-81a7-11ec-b7b8-00155dab3359",
+      "parentId": "",
+      "text": "Nice article! I love React!",
+      "author": "sarah",
+      "authorId": "3dec4cc0-8640-11ec-b6e0-00155dbad3b8",
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2010-01-01T12:23:34",
+      "updatedTime": "2020-02-01T12:23:34"
+    },
+    "eadb8a4c-863e-11ec-b9a8-00155dbad3b8": {
+      "id": "6d5dc328-81a7-11ec-9d6f-00155dab3359",
+      "parentId": "65588c8a-81a7-11ec-b7b8-00155dab3359",
+      "text": "I agree Sarah, it's a great article. However, I prefer Vue.",
+      "author": "john",
+      "authorId": "43efe26c-8640-11ec-b2bd-00155dbad3b8",
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2021-01-01T12:23:34",
+      "updatedTime": "2021-01-11T12:23:14"
+    },
+    "f620fcca-863e-11ec-9a45-00155dbad3b8": {
+      "id": "749b5e5c-81a7-11ec-81ff-00155dab3359",
+      "parentId": "6d5dc328-81a7-11ec-9d6f-00155dab3359",
+      "text": "ah sh*t, here we go again..",
+      "author": "sarah",
+      "authorId": "3dec4cc0-8640-11ec-b6e0-00155dbad3b8",
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2021-01-21T12:23:34",
+      "updatedTime": "2021-01-24T12:23:14"
+    },
+    "0002c282-863f-11ec-b210-00155dbad3b8": {
+      "id": "7ae06eb0-81a7-11ec-8b10-00155dab3359",
+      "parentId": "",
+      "text": "Cool article. You should put some funny gifs in it or something.",
+      "author": "kevin",
+      "authorId": "5a687892-8640-11ec-9c95-00155dbad3b8",
+      "expanded": true,
+      "upVote": 0,
+      "downVote": 0,
+      "createdTime": "2021-01-25T12:23:34",
+      "updatedTime": "2021-01-28T12:23:14"
+    }
+  }
+}
