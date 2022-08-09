@@ -8,12 +8,12 @@ importScripts(
 
 // Initialize the Firebase app in the service worker by passing the generated config
 const firebaseConfig = {
-  apiKey: 'AIzaSyBfZhmg8sluDNnBvHZCLd9l1fQDFqDJgJA',
-  authDomain: 'scrollstorytelling2.firebaseapp.com',
-  projectId: 'scrollstorytelling2',
-  storageBucket: 'scrollstorytelling2.appspot.com',
-  messagingSenderId: '564843025605',
-  appId: '1:564843025605:web:cd5dd1ad270e77e9b78cac',
+  apiKey: 'HERE_YOUR_KEY',
+  authDomain: 'hoge.firebaseapp.com',
+  projectId: 'hoge',
+  storageBucket: 'hoge.appspot.com',
+  messagingSenderId: 'HERE_YOUR_KEY',
+  appId: 'HERE_YOUR_KEY',
 };
 
 firebase.initializeApp(firebaseConfig);

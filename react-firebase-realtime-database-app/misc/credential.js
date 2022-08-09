@@ -17,7 +17,7 @@ const app = initializeApp(firebaseConfig);
 // Get a reference to the database service
 const db = getDatabase(
   app,
-  'https://scrollstorytelling2-default-rtdb.firebaseio.com/'
+  'https://hoge-default-rtdb.firebaseio.com/'
 );
 
 export {db};
